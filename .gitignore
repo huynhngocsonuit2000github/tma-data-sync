@@ -1,0 +1,7 @@
+**/bin/*
+**/obj/*
+**/publish/*
+**/temp/*
+**/z.Draft-folder/*
+**/node_modules/*
+Interview/**/*.tmp
