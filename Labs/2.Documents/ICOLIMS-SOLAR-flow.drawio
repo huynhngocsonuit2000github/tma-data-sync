@@ -1,0 +1,182 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.4">
+  <diagram name="Trang-1" id="OHN7ixSBosywDvEMVhEH">
+    <mxGraphModel dx="4346" dy="2445" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="auLlMFloszRQxERct9qK-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=15;" value="" vertex="1">
+          <mxGeometry height="280" width="290" x="-80" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-2" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=15;" value="Oracle" vertex="1">
+          <mxGeometry height="90" width="90" x="100" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="ICOLIMS" vertex="1">
+          <mxGeometry height="31" width="70" x="140" y="279" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=15;" value="" vertex="1">
+          <mxGeometry height="530" width="920" x="560" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="AWS" vertex="1">
+          <mxGeometry height="30" width="60" x="560" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="STRIIM" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-8" edge="1" parent="1" source="auLlMFloszRQxERct9qK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.973;entryY=0.561;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=15;" target="auLlMFloszRQxERct9qK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-18" edge="1" parent="1" source="auLlMFloszRQxERct9qK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=15;" target="auLlMFloszRQxERct9qK-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="AWS Kinesis" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="Monitor data changes" vertex="1">
+          <mxGeometry height="30" width="100" x="230" y="463" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="Striim push event to Kinesis" vertex="1">
+          <mxGeometry height="30" width="127" x="503" y="464" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="AWS Lambda" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="Trigger" vertex="1">
+          <mxGeometry height="30" width="60" x="643" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-21" edge="1" parent="1" source="auLlMFloszRQxERct9qK-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.612;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=15;" target="auLlMFloszRQxERct9qK-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="872.0800000000004" y="340.60000000000014" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="Sync the data changes" vertex="1">
+          <mxGeometry height="30" width="126" x="757" y="324" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-23" edge="1" parent="1" source="auLlMFloszRQxERct9qK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.029;entryY=0.504;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=15;" target="auLlMFloszRQxERct9qK-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;" value="" vertex="1">
+          <mxGeometry height="120" width="230" x="1070" y="263" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="SOLAR" vertex="1">
+          <mxGeometry height="30" width="60" x="1070" y="263" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" value="User Interface" vertex="1">
+          <mxGeometry height="60" width="110" x="1121" y="303" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-47" edge="1" parent="1" source="auLlMFloszRQxERct9qK-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=15;" target="auLlMFloszRQxERct9qK-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="AWS Lambda (SOLAR API)" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-38" edge="1" parent="1" source="auLlMFloszRQxERct9qK-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=15;" target="auLlMFloszRQxERct9qK-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="API Gateway" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;fontSize=15;" value="" vertex="1">
+          <mxGeometry height="260" width="200" x="810" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-43" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=15;" value="DynamoDB" vertex="1">
+          <mxGeometry height="109" width="95" x="875" y="273" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-44" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=15;" value="ElasticSearch" vertex="1">
+          <mxGeometry height="103" width="105" x="875" y="387" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-46" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.001;entryY=0.524;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=15;" target="auLlMFloszRQxERct9qK-44" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="340" />
+              <mxPoint x="850" y="440" />
+            </Array>
+            <mxPoint x="760" y="340" as="sourcePoint" />
+            <mxPoint x="850" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-48" edge="1" parent="1" source="auLlMFloszRQxERct9qK-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.464;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=15;" target="auLlMFloszRQxERct9qK-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1280" y="120" />
+              <mxPoint x="-9" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" value="User Interface" vertex="1">
+          <mxGeometry height="60" width="110" x="-60" y="319" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" value="Application" vertex="1">
+          <mxGeometry height="60" width="110" x="-60" y="403" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-51" edge="1" parent="1" source="auLlMFloszRQxERct9qK-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.006;entryY=0.608;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=15;" target="auLlMFloszRQxERct9qK-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-5" y="485" />
+              <mxPoint x="75" y="485" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-52" edge="1" parent="1" source="auLlMFloszRQxERct9qK-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.505;entryY=0.07;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=15;" target="auLlMFloszRQxERct9qK-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="ICOLIMS user will manually generate the SOLAR&#39;s PDF and update to ICOLIMS application" vertex="1">
+          <mxGeometry height="30" width="360" x="688" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="Azure API Management will validate the token and forward request to AWS API Gateway" vertex="1">
+          <mxGeometry height="30" width="310" x="1010" y="668" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" value="" vertex="1">
+          <mxGeometry height="283" width="250" x="1560" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-58" edge="1" parent="1" source="auLlMFloszRQxERct9qK-32" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" target="auLlMFloszRQxERct9qK-62" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1410" y="353" as="sourcePoint" />
+            <mxPoint x="1460" y="303" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="OAuth2 Login with Azure AD" vertex="1">
+          <mxGeometry height="40" width="130" x="1324" y="312" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="Azure" vertex="1">
+          <mxGeometry height="30" width="60" x="1560" y="241" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" value="Azure AD" vertex="1">
+          <mxGeometry height="46" width="90" x="1640" y="312" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" value="Azure API Management" vertex="1">
+          <mxGeometry height="83" width="120" x="1620" y="421" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-64" edge="1" parent="1" source="auLlMFloszRQxERct9qK-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.503;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=15;" target="auLlMFloszRQxERct9qK-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1680" y="700" />
+            </Array>
+            <mxPoint x="1720" y="570" as="sourcePoint" />
+            <mxPoint x="760" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-65" edge="1" parent="1" source="auLlMFloszRQxERct9qK-32" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.505;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=15;" target="auLlMFloszRQxERct9qK-63" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1176" y="463" />
+            </Array>
+            <mxPoint x="1360" y="453" as="sourcePoint" />
+            <mxPoint x="1410" y="403" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-66" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="Call API with Access token" vertex="1">
+          <mxGeometry height="30" width="180" x="1290" y="438" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-68" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=15;" value="Notes" vertex="1">
+          <mxGeometry height="90" width="600" x="-80" y="-40" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-69" parent="auLlMFloszRQxERct9qK-68" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=15;" value="DynamoDB as ICOLIMS replicate database, and include SOLAR-owned tables" vertex="1">
+          <mxGeometry height="30" width="600" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="auLlMFloszRQxERct9qK-70" parent="auLlMFloszRQxERct9qK-68" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=15;" value="&lt;span style=&quot;text-align: center;&quot;&gt;AWS Lambda (SOLAR API) for mainly handling SOLAR API Server side&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="600" y="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,6 +1,0 @@
-@MultiDbApi_HostAddress = http://localhost:5080
-
-GET {{MultiDbApi_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

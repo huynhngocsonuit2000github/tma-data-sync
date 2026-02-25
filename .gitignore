@@ -5,3 +5,5 @@
 **/z.Draft-folder/*
 **/node_modules/*
 Interview/**/*.tmp
+**/*.mp4
+**/*.mov
