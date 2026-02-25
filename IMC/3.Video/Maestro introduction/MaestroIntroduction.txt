@@ -1,0 +1,90 @@
+integrate to .net, luu data type, tra ve data de show UI, integration, demo
+
+MAESTRO End to End Overview
+
+- ICON and Clinical Trials:
+
+	+ Clinical Trials are research studies to examine health related interventions to evaluate the effect. For example, if someone has sleeping problem, maybe it will be a clinical trial that provides people melatonin to see how well they sleep, then we will look at any effects that might happen. For example, if they have increased snoring because of this melatotin?
+	
+	+ ICON is a CRO (Clinical Research Organization) that help conduct clinical research. For example, Pfizer may come up with a new brand of melatonin, so they would ask ICON to get the studies, conduct data and gather data, analyze data and submit to agencies.
+	
+	+ ICON focus on imaging work (around cancer and oncology research) and cardiac (related to heart) work. 
+
+- Maestro Overview
+
+	+ Maestro is the tool for managing clinical data
+	+ Maestro is set up into 2 sections, the configuration portal and data portal
+
+- Study Set-Up Department Assignment high-level overview (configuration portal)
+	+ Department: 
+		1. Production Setup Team: Configure participants, timepoints (when patients would take their medication), Interpretation list.
+		2. Production Support/Application Support: Create workflows, task lists, global setting, BPM.
+		3. Quality Team: Activate studies.
+		4. Site Support Team: Add sites to Maestro
+
+- Data Portal Department Assignment high-level overview (data portal)
+	+ Department:
+		1. Data Management Team: Manage Soft Lock (when a study is done, they dont want to make any more changes, they will soft lock it) and Manage Timepoint Locking.
+		2. Incoming Data Processing Team (IDP): Manage Unprocessed ECGs and Data Submissions.
+		3. Medical Operations Team: Do analysis in a platform called CalECG
+
+- Study Setup Workflow
+	+ He is not gonna go over the entire thing in the set up workflow.
+	
+	+ This workflow will continuously change.
+	
+	+ The workflow is:
+		1. Project Management Team set up study.
+		2. Production Support Team will get in there.
+		3. Data Management will do a bulk of the work in setting up different studies time points, submission types, De-ID, participant IDs.
+		4. Quality Team sign off on it.
+	
+
+- Data Submission Workflow: Handled by different teams
+	+ Site User: transmit the data
+	+ Medical Ops (doctors): do analysis
+
+- Maestro Configuration Portal - Demo
+	+ This portal is only for internal teams, used to config studies, audit trail
+
+	+ In navigation tabs, we have 5 tabs include: Home, Global settings, Inventory, Audit Trail, Monitoring
+
+	+ Global settings: Sponsors, Studies, Workflows (Categories/Templates), Task lists, Attribute Groups, Assesment Types, Interpretation lists.
+	
+	+ Sponsor screen: 
+		o Display sponsor list (Name/Description)
+		o add new sponsor
+		o search (I dont see the edit/delete button on this screen)
+	
+	+ Assessment Types screen: 
+		o CRUD(Name/Description/Active)
+		o Add new assessment type required to input user's password to confirm before save.
+	
+	+ Task lists screen:
+		o When go to the data portal, the users have task lists which is used to identify the tasks they have to work on. 
+		o CRUD(Name/Reason)
+		o Add new task list required to input user's password to confirm before save.
+		o Edit task list:
+			- Able to modify the column headers. These are columns that IDP team will see when they are working on  their task lists
+			- Assign user group access: Identify which users have visibility to this task list in the data portal
+			- Then it will identify which studies are associated with this task list
+
+	+ Workflow -> Categories:
+		o CRUD automated workflows (Name) called BPM (business practive models), they are seperated by categories
+
+	+ Workflow -> Templates:
+		o CRD templates (Name/Type/Description/Category/Last Updated)
+		o Download a template
+		
+	+ Attribute Groups (Entity/Quantity of Attribute Groups/Laste Modified): We store data within the portal via attribute, so if we have a form that our IDP team members are filling out based on their quality inspection of the data, we have to identify where those that form information will be stored and that's called attribute group. For example we have Submission Attribute Group here
+	
+	+ Interpretation lists (Name/Last Updated): This will be used by medical team during their analysis
+		o When we click on the name, it will redirect to an integration list detail, we have 3 tabs Statements, Consistency Rules, Clinical Alerts: 
+			- Statements tab: This will have many Interpretive Statements (Category/Statement/Acronym/Evaluation/Defination), we can do CRUD, search in here.
+			- Consistency Rules tab: CRUD rule, each rule has Name, Conditions display like text
+			
+			- Clinical Alerts: 
+			
+- Resources
+
+- Conclusion
